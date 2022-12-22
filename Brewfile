@@ -1,7 +1,7 @@
 # set up brew cask
-tap "caskroom/cask"
-tap "caskroom/fonts"
-tap "caskroom/drivers"
+tap "homebrew/cask"
+tap "homebrew/cask-fonts"
+tap "homebrew/cask-drivers"
 
 # brew installs
 brew "fish"
@@ -11,6 +11,7 @@ brew "git"
 brew "mas"
 brew "python"
 brew "node"
+brew "nvm"
 brew "yarn"
 brew "neovim"
 brew "exa"
